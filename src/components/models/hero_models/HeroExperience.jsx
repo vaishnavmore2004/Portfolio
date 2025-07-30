@@ -7,6 +7,7 @@ import HeroLights from "./HeroLights";
 import Particles from "./Particles";
 import { Suspense } from "react";
 import { Study_room } from "./Study_room";
+import { Galaxy } from "./Galaxy";
 
 const HeroExperience = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -28,13 +29,13 @@ const HeroExperience = () => {
 
       <Suspense fallback={null}>
         <HeroLights />
-        <Particles count={200} />
+        <Particles count={300} />
         <group
           scale={isMobile ? 0.7: 1.8}
           position={[0, -1.8, 0]}
           rotation={[0, -Math.PI / 4, 0]}
         >
-          <Study_room/>
+          <Galaxy/>
         </group>
       </Suspense>
     </Canvas>

@@ -184,7 +184,7 @@ const expCards = [
   },
   {
     
-    imgPath: "/images/MRCET.png",
+    imgPath: "/images/CodingWinner.png",
     logoPath: "/images/mrcetl.png",
     title: "Won Coding Hackathon in College",
     date: "April 2025",

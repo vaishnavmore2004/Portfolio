@@ -74,9 +74,9 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[moccasin]">
-                <img src="/images/Opsindoor.png" alt="OpSindoor" />
+                <img src="/images/LoyaltyDashboard.png" alt="OpSindoor" />
               </div>
-              <h2>Operation Sindoor : Strike on Terroism  (WIP)</h2>
+              <h2>Loyalty Dashboard</h2>
             </div>
           </div>
         </div>
