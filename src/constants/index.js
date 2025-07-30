@@ -172,6 +172,17 @@ const techStackIcons = [
 
 const expCards = [
   {
+    imgPath: "/images/Infosys.png",
+    logoPath: "/images/infosyslogo.jpg",
+    title: "Infosys Springboard",
+    date: "July 2025",
+    responsibilities: [
+      "Learnt Good knowledge on python language and its applications.",
+      "Got good information on dealing with databases using python."
+    ],
+  },
+  
+  {
     
     imgPath: "/images/CCNA.png",
     logoPath: "/images/cisco.png",
@@ -224,6 +235,7 @@ const expCards = [
       "Devloped extra skills like communication, professionalism, digital skills, interpersonal skills etc."
     ],
   },
+  
 ];
 
 const expLogos = [
